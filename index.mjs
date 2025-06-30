@@ -1,5 +1,5 @@
-import { S3 } from 'aws-sdk';
-const s3 = new S3();
+import AWS from 'aws-sdk';
+const s3 = new AWS.S3();
 const BUCKET_NAME = 'unstyle-json';
 const OBJECT_KEY = 'db.json';
 export async function handler(event) {
