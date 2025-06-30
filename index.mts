@@ -1,7 +1,7 @@
-import { S3 } from 'aws-sdk';
+import AWS from 'aws-sdk';
 import type { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 
-const s3 = new S3();
+const s3 = new AWS.S3();
 
 const BUCKET_NAME = 'unstyle-json';
 const OBJECT_KEY = 'db.json';
