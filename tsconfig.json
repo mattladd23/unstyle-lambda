@@ -6,12 +6,12 @@
       "moduleResolution": "Node",
       "sourceMap": true,
       "strict": true,
-      "rootDir": "src",
-      "outDir": "dist",
+      "rootDir": "index.mts",
+      "outDir": "index.mjs",
       "forceConsistentCasingInFileNames": true,
       "skipLibCheck": true
     },    
     "lib": ["es2015"],
-    "include": ["src/index.mts"],
-  }
+    "include": ["index.mts"],
+}
   
