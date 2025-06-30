@@ -8,13 +8,15 @@ export async function handler(event) {
             Bucket: BUCKET_NAME,
             Key: OBJECT_KEY
         }).promise();
+        const json = JSON.parse(data.Body?.toString('utf-8') || '{}');
+        const initialValues = json.initialValues ?? [];
         return {
             statusCode: 200,
             headers: {
                 'Access-Control-Allow-Origin': '*',
                 'Content-Type': 'application/json'
             },
-            body: data.Body?.toString('utf-8') || ''
+            body: JSON.stringify({ initialValues })
         };
     }
     catch (error) {
