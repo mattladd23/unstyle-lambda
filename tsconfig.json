@@ -1,17 +1,17 @@
 {
-    "compilerOptions": {
-      "module": "ESNext",
-      "esModuleInterop": true,
-      "target": "ES2020",
-      "moduleResolution": "Node",
-      "sourceMap": true,
-      "strict": true,
-      "rootDir": "index.mts",
-      "outDir": "index.mjs",
-      "forceConsistentCasingInFileNames": true,
-      "skipLibCheck": true
-    },    
-    "lib": ["es2015"],
-    "include": ["index.mts"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "target": "ES2020",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "strict": true,
+    "rootDir": "index.mts",
+    "outDir": "index.mjs",
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },    
+  "lib": ["es2015"],
+  "include": ["index.mts"],
 }
   
