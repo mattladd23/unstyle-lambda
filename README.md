@@ -1,6 +1,6 @@
 # unstyle-lambda
 
-A lightweight AWS Lambda function transpiled into JavaScript to serve static JSON data from an S3 bucket via API Gateway. Designed to integrate with the unstyle.dev full-stack app.
+A lightweight AWS Lambda function transpiled into JavaScript to serve static JSON data from an S3 bucket via API Gateway. A core component in hosting the Unstyle API.
 
 ## :key: Features
 
