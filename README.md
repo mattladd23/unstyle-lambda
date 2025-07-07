@@ -1,4 +1,4 @@
-# unstyle-lambda
+# Unstyle Lambda
 
 A lightweight AWS Lambda function transpiled into JavaScript to serve static JSON data from an S3 bucket via API Gateway. A core component in hosting the Unstyle API.
 
