@@ -11,7 +11,10 @@ A lightweight AWS Lambda function transpiled into JavaScript to serve static JSO
 
 ## :wrench: Tech Stack
 
-- AWS Lambda
-- API Gateway
-- S3
 - JavaScript (Typescript, ESM)
+- AWS Lambda
+- Amazon API Gateway
+- AWS SDK
+- Amazon S3
+- Amazon Route 53
+- AWS Certificate Manager
